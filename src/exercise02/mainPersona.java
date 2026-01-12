@@ -21,10 +21,10 @@ public class mainPersona {
 		//Creamos el objeto persona1
 		Persona persona1 = new Persona();
 		
+		System.out.print("----------< Persona 1 >----------");
+		
 		//Pedimos los datos de la persona 1
-		//Nombre
-		System.out.print("Introduce el nombre de la primera persona: ");
-		persona1.nombre = sc.nextLine();
+		pedirnom
 		
 		//Apellidos
 		System.out.print("Introduce los apellidos de " + persona1.nombre + ": ");
@@ -66,8 +66,6 @@ public class mainPersona {
 		
 		//Cerramos el Scanner
 		sc.close();
-		
-		//Vemos si una persona es mayor de edad
 	}
 
 }
