@@ -3,7 +3,7 @@
  * dni, nombre, apellidos y edad.
  */
 
-package exercise02;
+package exerciseA2;
 
 import java.util.Scanner;
 

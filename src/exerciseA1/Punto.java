@@ -3,7 +3,7 @@
  * Solo contendrá dos atributos enteros llamados x e y (coordenadas).
  */
 
-package exercise01;
+package exerciseA1;
 
 public class Punto {
 

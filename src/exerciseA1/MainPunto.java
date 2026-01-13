@@ -4,7 +4,7 @@
  * (prueba distintos operadores como = + - += *=...) y vuelve a imprimirlas por pantalla.
  */
 
-package exercise01;
+package exerciseA1;
 
 public class MainPunto {
 

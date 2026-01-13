@@ -5,7 +5,7 @@
  * “Azucena Luján García con DNI … es / no es mayor de edad”.
  */
 
-package exercise02;
+package exerciseA2;
 
 import java.util.Scanner;
 
