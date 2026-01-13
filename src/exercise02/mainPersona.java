@@ -21,48 +21,24 @@ public class mainPersona {
 		//Creamos el objeto persona1
 		Persona persona1 = new Persona();
 		
-		System.out.print("----------< Persona 1 >----------");
+		System.out.println("----------< Persona 1 >----------");
 		
-		//Pedimos los datos de la persona 1
-		pedirnom
-		
-		//Apellidos
-		System.out.print("Introduce los apellidos de " + persona1.nombre + ": ");
-		persona1.apellidos = sc.nextLine();
-		
-		//Edad
-		System.out.print("Introduce la edad de " + persona1.nombre + ": ");
-		persona1.edad = sc.nextInt();
-		
-		sc.nextLine();
-		
-		//DNI
-		System.out.print("Introduce el DNI de " + persona1.nombre + ": ");
-		persona1.dni = sc.nextLine();
+		//Pedimos el nombre
+		persona1.pedirDatos(sc);
 		
 		//------------------- PERSONA 1 -------------------
 		
 		//Creamos el objeto persona2
 		Persona persona2 = new Persona();
 				
-		//Pedimos los datos de la persona 2
-		//Nombre
-		System.out.print("Introduce el nombre de la segunda persona: ");
-		persona2.nombre = sc.nextLine();
-				
-		//Apellidos
-		System.out.print("Introduce los apellidos de " + persona1.nombre + ": ");
-		persona2.apellidos = sc.nextLine();
-				
-		//Edad
-		System.out.print("Introduce la edad de " + persona1.nombre + ": ");
-		persona2.edad = sc.nextInt();
-				
-		//DNI
-		System.out.print("Introduce el DNI de " + persona1.nombre + ": ");
-		persona2.dni = sc.nextLine();
+		System.out.println("----------< Persona 2 >----------");
 		
-		sc.nextLine();
+		//Pedimos el nombre
+		persona2.pedirDatos(sc);
+		
+		//Mostramos los mensajes finales
+		persona1.printMensaje();
+		persona2.printMensaje();
 		
 		//Cerramos el Scanner
 		sc.close();
