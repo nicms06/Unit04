@@ -48,8 +48,15 @@ public class GestionAlumno {
 	}
 	
 	//Método para borrar a un alumno de la lista
-	public void eliminarAlumno() {
+	public void eliminarAlumno(String nombre) {
+		Alumno alumno = buscarAlumno(nombre); //Buscamos al alumno en la lista
 		
+		if (alumno != null) { //Si el alumno se encuentra en la lista lo borramos
+			listaAlumnos.remove(alumno);
+			System.out.println("Alumno eliminado correctamente.");
+		} else { //Si el alumno no se encuentra en la lista mostramos un mensaje
+			System.out.println("El alumno no se encuentra en la lista.");
+		}
 	}
 	
 	//Función para buscar a un alumno dentro de la lista

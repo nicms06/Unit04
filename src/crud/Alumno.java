@@ -35,7 +35,11 @@ public class Alumno {
 		}
 	}
 	
-	
+	@Override
+	public String toString() {
+	    return "Nombre: " + nombre + ", Nota: " + nota;
+	}
+
 	
 }
 
