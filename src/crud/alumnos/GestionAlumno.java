@@ -1,4 +1,4 @@
-package crud;
+package crud.alumnos;
 
 import java.util.ArrayList;
 
@@ -8,10 +8,10 @@ public class GestionAlumno {
 	
 	//Creamos el constructor de la clase
 	public GestionAlumno () {
-		listaAlumnos = new ArrayList<>();
+        listaAlumnos = new ArrayList<>();
 	}
 	
-	//Creamos un método para listar los alumnos
+	//Creamos un metodo para listar los alumnos
 	public void listarAlumnos() {
 		if(listaAlumnos.isEmpty()) {//Si listaAlumnos está vacío, mostramos un mensaje
 			System.out.println("La lista está vacía");
@@ -22,7 +22,7 @@ public class GestionAlumno {
 		}
 	}
 	
-	//Creamos otro método para añadir alumnos
+	//Creamos otro metodo para añadir alumnos
 	public void addAlumnos(Alumno alumno) {
 		//Llamamos a la función buscarAlumno
 		if (buscarAlumno(alumno.getNombre()) != null) { //Si el alumno se encuentra dentro de la lista mostramos un mansaje de error
@@ -34,7 +34,7 @@ public class GestionAlumno {
 		}
 	}
 	
-	//Método para modificar la nota de un alumno
+	//metodo para modificar la nota de un alumno
 	public void modificarNota(String nombre, double nota) {
 		Alumno alumno = buscarAlumno(nombre);
 		
@@ -47,7 +47,7 @@ public class GestionAlumno {
 		}
 	}
 	
-	//Método para borrar a un alumno de la lista
+	//metodo para borrar a un alumno de la lista
 	public void eliminarAlumno(String nombre) {
 		Alumno alumno = buscarAlumno(nombre); //Buscamos al alumno en la lista
 		

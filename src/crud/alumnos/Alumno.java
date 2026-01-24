@@ -1,4 +1,4 @@
-package crud;
+package crud.alumnos;
 
 //Creación de una clase alumno
 public class Alumno {
@@ -13,17 +13,17 @@ public class Alumno {
 	
 	//Get para devolver el nombre
 	public String getNombre() {
-		return nombre;
+        return nombre;
 	}
 	
 	//Get para devolver la nota
 	public double getNota() {
-		return nota;
+        return nota;
 	}
 	
 	//set para nombre
 	public void setNombre(String nombre) {
-		this.nombre = nombre;
+        this.nombre = nombre;
 	}
 	
 	//Set para nota
@@ -37,7 +37,7 @@ public class Alumno {
 	
 	@Override
 	public String toString() {
-	    return "Nombre: " + nombre + ", Nota: " + nota;
+        return "Nombre: " + nombre + ", Nota: " + nota;
 	}
 
 	

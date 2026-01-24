@@ -1,4 +1,4 @@
-package crud;
+package crud.alumnos;
 
 import java.util.Scanner;
 
